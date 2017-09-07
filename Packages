@@ -1,0 +1,123 @@
+Package: python-openstackdocstheme
+Source: python-openstackdocstheme (1.16.1-1)
+Version: 1.16.1-1~geofft1
+Architecture: all
+Maintainer: Debian OpenStack <openstack-devel@lists.alioth.debian.org>
+Installed-Size: 2048
+Depends: libjs-bootstrap, python-pbr (>= 2.0.0), python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Filename: ./python-openstackdocstheme_1.16.1-1~geofft1_all.deb
+Size: 863326
+MD5sum: ce11788d70dac54d37c50194ee1b0560
+SHA1: 93ccfa5ef7fa43cd4f8e362a745c3f550b1535af
+SHA256: 0d2f54a286f9812491fdc82907630b18827c993c5211961b10651e0776317e90
+Section: python
+Priority: optional
+Homepage: http://docs.openstack.org/
+Description: extension support for Sphin OpenStack docs - Python 2.7
+ Theme and extension support for Sphinx documentation that is published to
+ docs.openstack.org. Intended for use by OpenStack projects.
+ .
+ This package contains the Python 2.7 module.
+
+Package: python-stevedore
+Source: stevedore (1.25.0-1)
+Version: 1.25.0-1~geofft1
+Architecture: all
+Maintainer: Debian OpenStack <openstack-devel@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: python-pbr (>= 2.0.0), python-pkg-resources, python-six (>= 1.9.0), python:any (<< 2.8), python:any (>= 2.7.5-5~)
+Filename: ./python-stevedore_1.25.0-1~geofft1_all.deb
+Size: 19796
+MD5sum: 278237116a27441a6f93ddca4b1e7c6f
+SHA1: 1fa78cb04d7fb734bcb1a2f842aac8d991ed90e0
+SHA256: a9ef43bd4313cdd39ede7ffdf729efc4e6aeaf4db2d80022ce200aa0297941fa
+Section: python
+Priority: optional
+Homepage: https://github.com/openstack/stevedore
+Description: manage dynamic plugins for Python applications - python2
+ Python makes loading code dynamically easy, allowing you to configure and
+ extend your application by discovering and loading extensions (plugins) at
+ runtime. Many applications implement their own library for doing this, using
+ __import__ or importlib. stevedore avoids creating yet another extension
+ mechanism by building on top of setuptools entry points. The code for managing
+ entry points tends to be repetitive, though, so stevedore provides manager
+ classes for implementing common patterns for using dynamically loaded
+ extensions.
+ .
+ This package provides the Python 2.x module.
+
+Package: python-stevedore-doc
+Source: stevedore (1.25.0-1)
+Version: 1.25.0-1~geofft1
+Architecture: all
+Maintainer: Debian OpenStack <openstack-devel@lists.alioth.debian.org>
+Installed-Size: 3279
+Depends: libjs-sphinxdoc (>= 1.0)
+Filename: ./python-stevedore-doc_1.25.0-1~geofft1_all.deb
+Size: 1389178
+MD5sum: 21b06fdf7beee2001124adf126037f99
+SHA1: 6c91c9bf8a15285638929d37f2329069133a01d1
+SHA256: 4059819a2106eeec1f7db689d78ebc63acaf36b92315f9564195efd1ee872e96
+Section: doc
+Priority: optional
+Homepage: https://github.com/openstack/stevedore
+Description: manage dynamic plugins for Python applications - doc
+ Python makes loading code dynamically easy, allowing you to configure and
+ extend your application by discovering and loading extensions (plugins) at
+ runtime. Many applications implement their own library for doing this, using
+ __import__ or importlib. stevedore avoids creating yet another extension
+ mechanism by building on top of setuptools entry points. The code for managing
+ entry points tends to be repetitive, though, so stevedore provides manager
+ classes for implementing common patterns for using dynamically loaded
+ extensions.
+ .
+ This package contains the documentation.
+
+Package: python3-openstackdocstheme
+Source: python-openstackdocstheme (1.16.1-1)
+Version: 1.16.1-1~geofft1
+Architecture: all
+Maintainer: Debian OpenStack <openstack-devel@lists.alioth.debian.org>
+Installed-Size: 2048
+Depends: libjs-bootstrap, python3-pbr (>= 2.0.0), python3:any (>= 3.3.2-2~)
+Filename: ./python3-openstackdocstheme_1.16.1-1~geofft1_all.deb
+Size: 863278
+MD5sum: 9052fe761645bb00af9cbe883ccedb53
+SHA1: a0b174056ac9e94fc99855bc5668a70618a6d6a1
+SHA256: a2abb62783bbb30ae5816142aa3661e7fad117b876fb5cadd383f269e069fd3e
+Section: python
+Priority: optional
+Homepage: http://docs.openstack.org/
+Description: extension support for Sphin OpenStack doc - Python 3.x
+ Theme and extension support for Sphinx documentation that is published to
+ docs.openstack.org. Intended for use by OpenStack projects.
+ .
+ This package contains the Python 3.x module.
+
+Package: python3-stevedore
+Source: stevedore (1.25.0-1)
+Version: 1.25.0-1~geofft1
+Architecture: all
+Maintainer: Debian OpenStack <openstack-devel@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: python3-pbr (>= 2.0.0), python3-pkg-resources, python3-six (>= 1.9.0), python3:any (>= 3.3.2-2~)
+Filename: ./python3-stevedore_1.25.0-1~geofft1_all.deb
+Size: 19854
+MD5sum: 85b5f2488775245e43338e357117c4f9
+SHA1: f02dd347a3bb9f5d713c628932745d181f730921
+SHA256: 5b78ff6f17c60939668314a1f69c07397367cf9aca3f8a06f66bbb872836fec3
+Section: python
+Priority: optional
+Homepage: https://github.com/openstack/stevedore
+Description: manage dynamic plugins for Python applications - python3
+ Python makes loading code dynamically easy, allowing you to configure and
+ extend your application by discovering and loading extensions (plugins) at
+ runtime. Many applications implement their own library for doing this, using
+ __import__ or importlib. stevedore avoids creating yet another extension
+ mechanism by building on top of setuptools entry points. The code for managing
+ entry points tends to be repetitive, though, so stevedore provides manager
+ classes for implementing common patterns for using dynamically loaded
+ extensions.
+ .
+ This package provides the Python 3.x module.
+
